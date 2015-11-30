@@ -36,73 +36,64 @@
     ga('create', 'UA-32369790-1', 'auto');
     ga('send', 'pageview');
   </script>
-  <script>
-    var trackOutboundLink = function(url) {
-       ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
-         function () {
-         document.location = url;
-         }
-       });
-    }
-  </script>
 </head>
 <body>
   <header>
     <h1>Ryan Baumann</h1>
-    <h2><a href="mailto:ryan.baumann@gmail.com" onclick="trackOutboundLink('mailto:ryan.baumann@gmail.com'); return false;">ryan.baumann@gmail.com</a></h2>
-    <h4><a href="https://blogs.library.duke.edu/dcthree/" onclick="trackOutboundLink('https://blogs.library.duke.edu/dcthree/'); return false;">Duke Collaboratory for Classics Computing</a></h4>
+    <h2><a href="mailto:ryan.baumann@gmail.com">ryan.baumann@gmail.com</a></h2>
+    <h4><a href="https://blogs.library.duke.edu/dcthree/">Duke Collaboratory for Classics Computing</a></h4>
   </header>
   <section>
     <h1>Around the web:</h1>
     <ul class="fa-ul">
-      <li><i class="fa-li fa fa-twitter"></i> <span><a href="https://twitter.com/ryanfb" onclick="trackOutboundLink('https://twitter.com/ryanfb'); return false;" rel="me">Twitter</a></span></li>
-      <li><i class="fa-li fa fa-github"></i> <span><a href="https://github.com/ryanfb" onclick="trackOutboundLink('https://github.com/ryanfb'); return false;" rel="me">GitHub</a></span></li>
+      <li><i class="fa-li fa fa-twitter"></i> <span><a href="https://twitter.com/ryanfb" rel="me">Twitter</a></span></li>
+      <li><i class="fa-li fa fa-github"></i> <span><a href="https://github.com/ryanfb" rel="me">GitHub</a></span></li>
       <li><i class="fa-li fa fa-rss"></i> <span><a href="https://ryanfb.github.io/etc/" rel="me">Blog</a></span></li>
     </ul>
   </section>
   <section>
     <h1>Useful tools:</h1>
     <ul>
-      <li><h1><a href="https://ryanfb.github.io/loebolus/" onclick="trackOutboundLink('https://ryanfb.github.io/loebolus/'); return false;">Loebolus</a></h1><p>Making the public domain Loebs more easily downloadable.</p></li>
-      <li><h1><a href="https://ryanfb.github.io/latinocr/" onclick="trackOutboundLink('https://ryanfb.github.io/latinocr/'); return false;">Latin OCR for Tesseract</a></h1><p>Latin OCR training data and tools for Tesseract.</p></li>
-      <li><h1><a href="https://ryanfb.github.io/pleiades-static/" onclick="trackOutboundLink('https://ryanfb.github.io/pleiades-static/'); return false;">Pleiades Static</a></h1><p>Fast, static, client-side search and display for <a href="http://pleiades.stoa.org/" onclick="trackOutboundLink('http://pleiades.stoa.org/'); return false;">the Pleiades gazetteer of ancient places</a>.</p></li>
-      <li><h1><a href="https://ryanfb.github.io/github-friction/" onclick="trackOutboundLink('https://ryanfb.github.io/github-friction/'); return false;">GitHub Friction</a></h1><p>Check for common sources of contributor friction across your GitHub repositories.</p></li>
-      <li><h1><a href="http://ryanfb.github.io/beer-calories/" onclick="trackOutboundLink('http://ryanfb.github.io/beer-calories/'); return false;">Beer Calories</a></h1><p>Client-side mobile-friendly beer calorie calculator with Untappd integration.</p></li>
-      <li><h1><a href="https://github.com/ryanfb/dlflickr" onclick="trackOutboundLink('https://github.com/ryanfb/dlflickr'); return false;">dlflickr</a></h1><p>Ruby scripts for downloading Flickr photos and associated metadata.</p></li>
-      <li><h1><a href="https://github.com/ryanfb/iiif-dl" onclick="trackOutboundLink('https://github.com/ryanfb/iiif-dl'); return false;">iiif-dl</a></h1><p>Ruby script for downloading IIIF images.</p></li>
-      <li><h1><a href="https://github.com/ryanfb/dzi-dl" onclick="trackOutboundLink('https://github.com/ryanfb/dzi-dl'); return false;">dzi-dl</a></h1><p>Ruby script for downloading Deep Zoom images.</p></li>
-      <li><h1><a href="https://github.com/ryanfb/google-fusion-tables-backup" onclick="trackOutboundLink('https://github.com/ryanfb/google-fusion-tables-backup'); return false;">google-fusion-tables-backup</a></h1><p>Ruby script for backing up your Google Fusion Tables data to CSV.</p></li>
-      <li><h1><a href="https://github.com/ryanfb/georefine" onclick="trackOutboundLink('https://github.com/ryanfb/georefine'); return false;">GeoRefine</a></h1><p>A geospatial processing extension for OpenRefine.</p></li>
-      <li><h1><a href="https://github.com/ryanfb/rotatebake" onclick="trackOutboundLink('https://github.com/ryanfb/rotatebake'); return false;">RotateBake</a></h1><p>RotateBake is a Mac app for baking EXIF rotation into images. You know your iPhone images that show up rotated wrong in Safari? Yeah, this fixes that.</p></li>
-      <li><h1><a href="https://github.com/ryanfb/macduff" onclick="trackOutboundLink('https://github.com/ryanfb/macduff'); return false;">Macduff</a></h1><p>Macduff is a tool for finding the Macbeth ColorChecker chart in an image.</p></li>
-      <li><h1><a href="https://github.com/ryanfb/gist2pinboard" onclick="trackOutboundLink('https://github.com/ryanfb/gist2pinboard'); return false;">gist2pinboard</a></h1><p>Script for adding your GitHub Gists as Pinboard bookmarks, so that you can search your own Gists.</p></li>
-      <li><h1><a href="https://github.com/ryanfb/backpack-export-xslt" onclick="trackOutboundLink('https://github.com/ryanfb/backpack-export-xslt'); return false;">Backpack Export XSLT</a></h1><p>Stylesheets for converting your 37signals/Basecamp Backpack export XML into usable, complete, static local backups.</p></li>
-      <li><h1><a href="https://github.com/ryanfb/bcx-project-photocopier" onclick="trackOutboundLink('https://github.com/ryanfb/bcx-project-photocopier'); return false;">BCX Project Photocopier</a></h1><p>Copy Basecamp projects between accounts.</p></li>
-      <li><h1><a href="http://www.flickr.com/photos/ryanfb/collections/72157611507557907/" onclick="trackOutboundLink('http://www.flickr.com/photos/ryanfb/collections/72157611507557907/'); return false;">Manuscript Images on Flickr</a></h1><p>Creative Commons licensed manuscript images mirrored on Flickr for redundancy and alternative access methods (API, notes, comments, browsing, etc.).</p></li>
+      <li><h1><a href="https://ryanfb.github.io/loebolus/">Loebolus</a></h1><p>Making the public domain Loebs more easily downloadable.</p></li>
+      <li><h1><a href="https://ryanfb.github.io/latinocr/">Latin OCR for Tesseract</a></h1><p>Latin OCR training data and tools for Tesseract.</p></li>
+      <li><h1><a href="https://ryanfb.github.io/pleiades-static/">Pleiades Static</a></h1><p>Fast, static, client-side search and display for <a href="http://pleiades.stoa.org/">the Pleiades gazetteer of ancient places</a>.</p></li>
+      <li><h1><a href="https://ryanfb.github.io/github-friction/">GitHub Friction</a></h1><p>Check for common sources of contributor friction across your GitHub repositories.</p></li>
+      <li><h1><a href="http://ryanfb.github.io/beer-calories/">Beer Calories</a></h1><p>Client-side mobile-friendly beer calorie calculator with Untappd integration.</p></li>
+      <li><h1><a href="https://github.com/ryanfb/dlflickr">dlflickr</a></h1><p>Ruby scripts for downloading Flickr photos and associated metadata.</p></li>
+      <li><h1><a href="https://github.com/ryanfb/iiif-dl">iiif-dl</a></h1><p>Ruby script for downloading IIIF images.</p></li>
+      <li><h1><a href="https://github.com/ryanfb/dzi-dl">dzi-dl</a></h1><p>Ruby script for downloading Deep Zoom images.</p></li>
+      <li><h1><a href="https://github.com/ryanfb/google-fusion-tables-backup">google-fusion-tables-backup</a></h1><p>Ruby script for backing up your Google Fusion Tables data to CSV.</p></li>
+      <li><h1><a href="https://github.com/ryanfb/georefine">GeoRefine</a></h1><p>A geospatial processing extension for OpenRefine.</p></li>
+      <li><h1><a href="https://github.com/ryanfb/rotatebake">RotateBake</a></h1><p>RotateBake is a Mac app for baking EXIF rotation into images. You know your iPhone images that show up rotated wrong in Safari? Yeah, this fixes that.</p></li>
+      <li><h1><a href="https://github.com/ryanfb/macduff">Macduff</a></h1><p>Macduff is a tool for finding the Macbeth ColorChecker chart in an image.</p></li>
+      <li><h1><a href="https://github.com/ryanfb/gist2pinboard">gist2pinboard</a></h1><p>Script for adding your GitHub Gists as Pinboard bookmarks, so that you can search your own Gists.</p></li>
+      <li><h1><a href="https://github.com/ryanfb/backpack-export-xslt">Backpack Export XSLT</a></h1><p>Stylesheets for converting your 37signals/Basecamp Backpack export XML into usable, complete, static local backups.</p></li>
+      <li><h1><a href="https://github.com/ryanfb/bcx-project-photocopier">BCX Project Photocopier</a></h1><p>Copy Basecamp projects between accounts.</p></li>
+      <li><h1><a href="http://www.flickr.com/photos/ryanfb/collections/72157611507557907/">Manuscript Images on Flickr</a></h1><p>Creative Commons licensed manuscript images mirrored on Flickr for redundancy and alternative access methods (API, notes, comments, browsing, etc.).</p></li>
     </ul>
   </section>
   <section>
     <h1>Selected publications:</h1>
     <ul>
-      <li><a href="http://dx.doi.org/10.1007/978-3-642-34752-8_2" onclick="trackOutboundLink('http://dx.doi.org/10.1007/978-3-642-34752-8_2'); return false;">Automatic Perspective Correction of Manuscript Images</a>. ICADL 2012.</li>
-      <li><a href="http://ryanfb.github.io/papers-BICS/" onclick="trackOutboundLink('http://ryanfb.github.io/papers-BICS/'); return false;">The Son of Suda On-Line</a>: Collaborative editing and workflow tool. Digital Humanities 2011.</li>
-      <li><a href="http://rfbaumann.com/papers/sp137-baumann.pdf" onclick="trackOutboundLink('http://rfbaumann.com/papers/sp137-baumann.pdf'); return false;">Robust Registration of Manuscript Images</a>. 9th ACM/IEEE-CS Joint Conference on Digital Libraries. 2009.</li>
+      <li><a href="http://dx.doi.org/10.1007/978-3-642-34752-8_2">Automatic Perspective Correction of Manuscript Images</a>. ICADL 2012.</li>
+      <li><a href="http://ryanfb.github.io/papers-BICS/">The Son of Suda On-Line</a>: Collaborative editing and workflow tool. Digital Humanities 2011.</li>
+      <li><a href="http://rfbaumann.com/papers/sp137-baumann.pdf">Robust Registration of Manuscript Images</a>. 9th ACM/IEEE-CS Joint Conference on Digital Libraries. 2009.</li>
       <li>Opportunities for Epigraphy in the Context of 3D Digitization. ASGLE 2009 joint APA/AIA Panel.</li>
-      <li><a href="http://rfbaumann.com/papers/Israel-EDUCE.pdf" onclick="trackOutboundLink('http://rfbaumann.com/papers/Israel-EDUCE.pdf'); return false;">The Use of Micro-CT in the Study of Archaeological Artifacts</a>. 9th International Art Conference in Jerusalem on Non-destructive Investigation and Analysis. 2008.</li>
-      <li>Imaging the <a href="http://en.wikipedia.org/wiki/Venetus_A" onclick="trackOutboundLink('http://en.wikipedia.org/wiki/Venetus_A'); return false;">Venetus A Manuscript</a> for the <a href="http://www.homermultitext.org/" onclick="trackOutboundLink('http://www.homermultitext.org/'); return false;">Homer Multitext</a>. Digital Humanities 2008.</li>
+      <li><a href="http://rfbaumann.com/papers/Israel-EDUCE.pdf">The Use of Micro-CT in the Study of Archaeological Artifacts</a>. 9th International Art Conference in Jerusalem on Non-destructive Investigation and Analysis. 2008.</li>
+      <li>Imaging the <a href="http://en.wikipedia.org/wiki/Venetus_A">Venetus A Manuscript</a> for the <a href="http://www.homermultitext.org/">Homer Multitext</a>. Digital Humanities 2008.</li>
       <li>A Catadioptric Projector System with Application to Pseudo HDR Display (Poster). ACM SIGGRAPH 2007.</li>
     </ul>
   </section>
   <section>
     <h1>As seen on:</h1>
     <ul>
-      <li>“<a href="http://campustechnology.com/articles/2013/10/16/a-collaboratory-for-classics.aspx" onclick="trackOutboundLink('http://campustechnology.com/articles/2013/10/16/a-collaboratory-for-classics.aspx'); return false;">A Collaboratory for Classics</a>”. Campus Technology. <time datetime="2013-10-16">2013</time>.
-      <li>“<a href="http://www.wral.com/ancient-documents-go-digital-at-duke/12721968/" onclick="trackOutboundLink('http://www.wral.com/ancient-documents-go-digital-at-duke/12721968/'); return false;">Ancient documents go digital at Duke</a>”. WRAL. <time datetime="2013-07-30">2013</time>.
-      <li>“<a href="https://chronicle.com/article/Duke-Puts-a-Classics-Scholar/139567/" onclick="trackOutboundLink('https://chronicle.com/article/Duke-Puts-a-Classics-Scholar/139567/'); return false;">Duke Classics Scholar Finds Another Home in the Library</a>”. The Chronicle of Higher Education. <time datetime="2013-06-03">2013</time>.
-      <li>“<a href="http://arstechnica.com/science/2012/05/coolest-jobs-in-tech-decoding-life-touring-solar-systems/" onclick="trackOutboundLink('http://arstechnica.com/science/2012/05/coolest-jobs-in-tech-decoding-life-touring-solar-systems/'); return false;">Coolest jobs in tech: decoding life, touring solar systems</a>”. Ars Technica. <time datetime="2012-05-22">2012</time>.</li>
-      <li>“<a href="http://www.kentucky.com/2009/08/23/905984/uk-team-digs-into-data-from-scroll.html" onclick="trackOutboundLink('http://www.kentucky.com/2009/08/23/905984/uk-team-digs-into-data-from-scroll.html'); return false;">UK team digs into data from scroll scans</a>”. Lexington Herald-Leader. <time datetime="2009-08-23">2009</time>.
-      <li>“<a href="http://online.wsj.com/article/SB124173896716198603.html" onclick="trackOutboundLink('http://online.wsj.com/article/SB124173896716198603.html'); return false;">The Next Age of Discovery</a>”. Wall Street Journal. <time datetime="2009-05-08">2009</time>.</li>
-      <li>“<a href="http://37signals.blogs.com/products/2008/08/backpack-helps.html" onclick="trackOutboundLink('http://37signals.blogs.com/products/2008/08/backpack-helps.html'); return false;">Backpack helps researcher working in imaging of ancient texts</a>”. 37signals. <time datetime="2008-08-28">2008</time>.</li>
+      <li>“<a href="http://campustechnology.com/articles/2013/10/16/a-collaboratory-for-classics.aspx">A Collaboratory for Classics</a>”. Campus Technology. <time datetime="2013-10-16">2013</time>.
+      <li>“<a href="http://www.wral.com/ancient-documents-go-digital-at-duke/12721968/">Ancient documents go digital at Duke</a>”. WRAL. <time datetime="2013-07-30">2013</time>.
+      <li>“<a href="https://chronicle.com/article/Duke-Puts-a-Classics-Scholar/139567/">Duke Classics Scholar Finds Another Home in the Library</a>”. The Chronicle of Higher Education. <time datetime="2013-06-03">2013</time>.
+      <li>“<a href="http://arstechnica.com/science/2012/05/coolest-jobs-in-tech-decoding-life-touring-solar-systems/">Coolest jobs in tech: decoding life, touring solar systems</a>”. Ars Technica. <time datetime="2012-05-22">2012</time>.</li>
+      <li>“<a href="http://www.kentucky.com/2009/08/23/905984/uk-team-digs-into-data-from-scroll.html">UK team digs into data from scroll scans</a>”. Lexington Herald-Leader. <time datetime="2009-08-23">2009</time>.
+      <li>“<a href="http://online.wsj.com/article/SB124173896716198603.html">The Next Age of Discovery</a>”. Wall Street Journal. <time datetime="2009-05-08">2009</time>.</li>
+      <li>“<a href="http://37signals.blogs.com/products/2008/08/backpack-helps.html">Backpack helps researcher working in imaging of ancient texts</a>”. 37signals. <time datetime="2008-08-28">2008</time>.</li>
     </ul>
   </section>
 </body>
