@@ -1,137 +1,69 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Ryan Baumann</title>
-  <meta name="description" content="Ryan Baumann">
-  <meta name="author" content="Ryan Baumann">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <style type="text/css">
-    /* eb-garamond-regular - latin */
-    @font-face {
-      font-family: 'EB Garamond';
-      font-style: normal;
-      font-weight: 400;
-      src: url('/assets/fonts/eb-garamond-v9-latin-regular.eot'); /* IE9 Compat Modes */
-      src: local('EB Garamond Regular'), local('EBGaramond-Regular'),
-           url('/assets/fonts/eb-garamond-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-           url('/assets/fonts/eb-garamond-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-           url('/assets/fonts/eb-garamond-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
-           url('/assets/fonts/eb-garamond-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-           url('/assets/fonts/eb-garamond-v9-latin-regular.svg#EBGaramond') format('svg'); /* Legacy iOS */
-    }
-
-    /* eb-garamond-italic - latin */
-    @font-face {
-      font-family: 'EB Garamond';
-      font-style: italic;
-      font-weight: 400;
-      src: url('/assets/fonts/eb-garamond-v9-latin-italic.eot'); /* IE9 Compat Modes */
-      src: local('EB Garamond Italic'), local('EBGaramond-Italic'),
-           url('/assets/fonts/eb-garamond-v9-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-           url('/assets/fonts/eb-garamond-v9-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
-           url('/assets/fonts/eb-garamond-v9-latin-italic.woff') format('woff'), /* Modern Browsers */
-           url('/assets/fonts/eb-garamond-v9-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
-           url('/assets/fonts/eb-garamond-v9-latin-italic.svg#EBGaramond') format('svg'); /* Legacy iOS */
-    }
-
-    /* eb-garamond-700 - latin */
-    @font-face {
-      font-family: 'EB Garamond';
-      font-style: normal;
-      font-weight: 700;
-      src: url('/assets/fonts/eb-garamond-v9-latin-700.eot'); /* IE9 Compat Modes */
-      src: local('EB Garamond Bold'), local('EBGaramond-Bold'),
-           url('/assets/fonts/eb-garamond-v9-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-           url('/assets/fonts/eb-garamond-v9-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-           url('/assets/fonts/eb-garamond-v9-latin-700.woff') format('woff'), /* Modern Browsers */
-           url('/assets/fonts/eb-garamond-v9-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-           url('/assets/fonts/eb-garamond-v9-latin-700.svg#EBGaramond') format('svg'); /* Legacy iOS */
-    }
-    h1, h2, h3, h4 {
-      font-family:'Palatino', 'EB Garamond', serif;
-    }
-    body {
-      font-family:'EB Garamond', serif;
-      margin: 80px auto;
-      width: 720px;
-      line-height: 24px;
-    }
-    a {
-      color: black;
-      text-decoration: none;
-      border-bottom: 1px solid #ddd;
-    }
-    a:hover {
-      border-bottom: 1px solid black;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Ryan Baumann</h1>
-    <h2><a href="mailto:ryan.baumann@gmail.com">ryan.baumann@gmail.com</a></h2>
-    <h4><a href="https://dcthree.github.io/">Duke Collaboratory for Classics Computing</a></h4>
-  </header>
-  <section>
-    <h1>Around the web:</h1>
-    <ul class="fa-ul">
-      <li><i class="fa-li fas fa-rss"></i> <span><a href="https://ryanfb.github.io/etc/" rel="me">Blog</a></span></li>
-      <li><i class="fa-li fab fa-github"></i> <span><a href="https://github.com/ryanfb?tab=repositories" rel="me">GitHub</a></span></li>
-      <li><i class="fa-li fab fa-docker"></i> <span><a href="https://hub.docker.com/u/ryanfb" rel="me">Docker Hub</a></span></li>
-      <li><i class="fa-li fab fa-twitter"></i> <span><a href="https://twitter.com/ryanfb" rel="me">Twitter</a></span></li>
-      <li><i class="fa-li fab fa-mastodon"></i> <span><a href="https://botsin.space/@ryanfb" rel="me">Mastodon</a></span></li>
-      <li><i class="fa-li fas fa-university"></i> <span><a href="https://archive.org/details/@ryanfb" rel="me">Internet Archive</a></span></li>
-      <li><i class="fa-li fas fa-cube"></i> <span><a href="https://sketchfab.com/ryanfb" rel="me">Sketchfab</a></span></li>
-      <li><i class="fa-li fas fa-donate"></i> <span><a href="https://ryanfb.github.io/etc/tip-jar" rel="payment">Tip Jar</a></span></li>
-    </ul>
-  </section>
-  <section>
-    <h1>Useful tools:</h1>
-    <ul>
-      <li><h1><a href="https://ryanfb.github.io/loebolus/">Loebolus</a></h1><p>Making the public domain Loebs more easily downloadable.</p></li>
-      <li><h1><a href="http://ryanfb.github.io/book-aligner/">Book Aligner</a></h1><p>Automatic alignment of books between HathiTrust, Internet Archive, Google Books, etc.</p></li>
-      <li><h1><a href="https://ryanfb.github.io/latinocr/">Latin OCR for Tesseract</a></h1><p>Latin OCR training data and tools for Tesseract.</p></li>
-      <li><h1><a href="https://ryanfb.github.io/pleiades-static/">Pleiades Static</a></h1><p>Fast, static, client-side search and display for <a href="http://pleiades.stoa.org/">the Pleiades gazetteer of ancient places</a>.</p></li>
-      <li><h1><a href="https://ryanfb.github.io/github-friction/">GitHub Friction</a></h1><p>Check for common sources of contributor friction across your GitHub repositories.</p></li>
-      <li><h1><a href="http://ryanfb.github.io/beer-calories/">Beer Calories</a></h1><p>Client-side mobile-friendly beer calorie calculator with Untappd integration.</p></li>
-      <li><h1><a href="https://github.com/ryanfb/dlflickr">dlflickr</a></h1><p>Ruby scripts for downloading Flickr photos and associated metadata.</p></li>
-      <li><h1><a href="https://github.com/ryanfb/iiif-dl">iiif-dl</a></h1><p>Ruby script for downloading IIIF images.</p></li>
-      <li><h1><a href="https://github.com/ryanfb/dzi-dl">dzi-dl</a></h1><p>Ruby script for downloading Deep Zoom images.</p></li>
-      <li><h1><a href="https://github.com/ryanfb/google-fusion-tables-backup">google-fusion-tables-backup</a></h1><p>Ruby script for backing up your Google Fusion Tables data to CSV.</p></li>
-      <li><h1><a href="https://github.com/ryanfb/georefine">GeoRefine</a></h1><p>A geospatial processing extension for OpenRefine.</p></li>
-      <li><h1><a href="https://github.com/ryanfb/rotatebake">RotateBake</a></h1><p>RotateBake is a Mac app for baking EXIF rotation into images. You know your iPhone images that show up rotated wrong in Safari? Yeah, this fixes that.</p></li>
-      <li><h1><a href="https://github.com/ryanfb/macduff">Macduff</a></h1><p>Macduff is a tool for finding the Macbeth ColorChecker chart in an image.</p></li>
-      <li><h1><a href="https://github.com/ryanfb/gist2pinboard">gist2pinboard</a></h1><p>Script for adding your GitHub Gists as Pinboard bookmarks, so that you can search your own Gists.</p></li>
-      <li><h1><a href="https://github.com/ryanfb/backpack-export-xslt">Backpack Export XSLT</a></h1><p>Stylesheets for converting your 37signals/Basecamp Backpack export XML into usable, complete, static local backups.</p></li>
-      <li><h1><a href="https://github.com/ryanfb/bcx-project-photocopier">BCX Project Photocopier</a></h1><p>Copy Basecamp projects between accounts.</p></li>
-      <li><h1><a href="http://www.flickr.com/photos/ryanfb/collections/72157611507557907/">Manuscript Images on Flickr</a></h1><p>Creative Commons licensed manuscript images mirrored on Flickr for redundancy and alternative access methods (API, notes, comments, browsing, etc.).</p></li>
-    </ul>
-  </section>
-  <section>
-    <h1>Selected publications:</h1>
-    <ul>
-      <li><a href="http://dx.doi.org/10.1007/978-3-642-34752-8_2">Automatic Perspective Correction of Manuscript Images</a>. ICADL 2012.</li>
-      <li><a href="http://ryanfb.github.io/papers-BICS/">The Son of Suda On-Line</a>: Collaborative editing and workflow tool. Digital Humanities 2011.</li>
-      <li><a href="http://rfbaumann.com/papers/sp137-baumann.pdf">Robust Registration of Manuscript Images</a>. 9th ACM/IEEE-CS Joint Conference on Digital Libraries. 2009.</li>
-      <li>Opportunities for Epigraphy in the Context of 3D Digitization. ASGLE 2009 joint APA/AIA Panel.</li>
-      <li><a href="http://rfbaumann.com/papers/Israel-EDUCE.pdf">The Use of Micro-CT in the Study of Archaeological Artifacts</a>. 9th International Art Conference in Jerusalem on Non-destructive Investigation and Analysis. 2008.</li>
-      <li>Imaging the <a href="http://en.wikipedia.org/wiki/Venetus_A">Venetus A Manuscript</a> for the <a href="http://www.homermultitext.org/">Homer Multitext</a>. Digital Humanities 2008.</li>
-      <li>A Catadioptric Projector System with Application to Pseudo HDR Display (Poster). ACM SIGGRAPH 2007.</li>
-    </ul>
-  </section>
-  <section>
-    <h1>As seen on:</h1>
-    <ul>
-      <li>“<a href="http://campustechnology.com/articles/2013/10/16/a-collaboratory-for-classics.aspx">A Collaboratory for Classics</a>”. Campus Technology. <time datetime="2013-10-16">2013</time>.
-      <li>“<a href="http://www.wral.com/ancient-documents-go-digital-at-duke/12721968/">Ancient documents go digital at Duke</a>”. WRAL. <time datetime="2013-07-30">2013</time>.
-      <li>“<a href="https://chronicle.com/article/Duke-Puts-a-Classics-Scholar/139567/">Duke Classics Scholar Finds Another Home in the Library</a>”. The Chronicle of Higher Education. <time datetime="2013-06-03">2013</time>.
-      <li>“<a href="http://arstechnica.com/science/2012/05/coolest-jobs-in-tech-decoding-life-touring-solar-systems/">Coolest jobs in tech: decoding life, touring solar systems</a>”. Ars Technica. <time datetime="2012-05-22">2012</time>.</li>
-      <li>“<a href="http://www.kentucky.com/2009/08/23/905984/uk-team-digs-into-data-from-scroll.html">UK team digs into data from scroll scans</a>”. Lexington Herald-Leader. <time datetime="2009-08-23">2009</time>.
-      <li>“<a href="http://online.wsj.com/article/SB124173896716198603.html">The Next Age of Discovery</a>”. Wall Street Journal. <time datetime="2009-05-08">2009</time>.</li>
-      <li>“<a href="http://37signals.blogs.com/products/2008/08/backpack-helps.html">Backpack helps researcher working in imaging of ancient texts</a>”. 37signals. <time datetime="2008-08-28">2008</time>.</li>
-    </ul>
-  </section>
-</body>
-</html>
+---
+layout: default
+title: index
+no_header: true
+---
+<header>
+  <h1>Ryan Baumann</h1>
+  <h2><a href="mailto:ryan.baumann@gmail.com">ryan.baumann@gmail.com</a></h2>
+  <h4><a href="https://dcthree.github.io/">Duke Collaboratory for Classics Computing</a></h4>
+</header>
+<section>
+  <h1>Around the web:</h1>
+  <ul class="fa-ul">
+    <li><i class="fa-li fas fa-rss"></i> <span><a href="https://ryanfb.github.io/etc/" rel="me">Blog</a></span></li>
+    <li><i class="fa-li fab fa-github"></i> <span><a href="https://github.com/ryanfb?tab=repositories" rel="me">GitHub</a></span></li>
+    <li><i class="fa-li fab fa-docker"></i> <span><a href="https://hub.docker.com/u/ryanfb" rel="me">Docker Hub</a></span></li>
+    <li><i class="fa-li fab fa-twitter"></i> <span><a href="https://twitter.com/ryanfb" rel="me">Twitter</a></span></li>
+    <li><i class="fa-li fab fa-mastodon"></i> <span><a href="https://botsin.space/@ryanfb" rel="me">Mastodon</a></span></li>
+    <li><i class="fa-li fas fa-university"></i> <span><a href="https://archive.org/details/@ryanfb" rel="me">Internet Archive</a></span></li>
+    <li><i class="fa-li fas fa-cube"></i> <span><a href="https://sketchfab.com/ryanfb" rel="me">Sketchfab</a></span></li>
+    <li><i class="fa-li fas fa-donate"></i> <span><a href="https://ryanfb.github.io/etc/tip-jar" rel="payment">Tip Jar</a></span></li>
+  </ul>
+</section>
+<section>
+  <h1>Useful tools:</h1>
+  <ul>
+    <li><h1><a href="https://ryanfb.github.io/loebolus/">Loebolus</a></h1><p>Making the public domain Loebs more easily downloadable.</p></li>
+    <li><h1><a href="http://ryanfb.github.io/book-aligner/">Book Aligner</a></h1><p>Automatic alignment of books between HathiTrust, Internet Archive, Google Books, etc.</p></li>
+    <li><h1><a href="https://ryanfb.github.io/latinocr/">Latin OCR for Tesseract</a></h1><p>Latin OCR training data and tools for Tesseract.</p></li>
+    <li><h1><a href="https://ryanfb.github.io/pleiades-static/">Pleiades Static</a></h1><p>Fast, static, client-side search and display for <a href="http://pleiades.stoa.org/">the Pleiades gazetteer of ancient places</a>.</p></li>
+    <li><h1><a href="https://ryanfb.github.io/github-friction/">GitHub Friction</a></h1><p>Check for common sources of contributor friction across your GitHub repositories.</p></li>
+    <li><h1><a href="http://ryanfb.github.io/beer-calories/">Beer Calories</a></h1><p>Client-side mobile-friendly beer calorie calculator with Untappd integration.</p></li>
+    <li><h1><a href="https://github.com/ryanfb/dlflickr">dlflickr</a></h1><p>Ruby scripts for downloading Flickr photos and associated metadata.</p></li>
+    <li><h1><a href="https://github.com/ryanfb/iiif-dl">iiif-dl</a></h1><p>Ruby script for downloading IIIF images.</p></li>
+    <li><h1><a href="https://github.com/ryanfb/dzi-dl">dzi-dl</a></h1><p>Ruby script for downloading Deep Zoom images.</p></li>
+    <li><h1><a href="https://github.com/ryanfb/google-fusion-tables-backup">google-fusion-tables-backup</a></h1><p>Ruby script for backing up your Google Fusion Tables data to CSV.</p></li>
+    <li><h1><a href="https://github.com/ryanfb/georefine">GeoRefine</a></h1><p>A geospatial processing extension for OpenRefine.</p></li>
+    <li><h1><a href="https://github.com/ryanfb/rotatebake">RotateBake</a></h1><p>RotateBake is a Mac app for baking EXIF rotation into images. You know your iPhone images that show up rotated wrong in Safari? Yeah, this fixes that.</p></li>
+    <li><h1><a href="https://github.com/ryanfb/macduff">Macduff</a></h1><p>Macduff is a tool for finding the Macbeth ColorChecker chart in an image.</p></li>
+    <li><h1><a href="https://github.com/ryanfb/gist2pinboard">gist2pinboard</a></h1><p>Script for adding your GitHub Gists as Pinboard bookmarks, so that you can search your own Gists.</p></li>
+    <li><h1><a href="https://github.com/ryanfb/backpack-export-xslt">Backpack Export XSLT</a></h1><p>Stylesheets for converting your 37signals/Basecamp Backpack export XML into usable, complete, static local backups.</p></li>
+    <li><h1><a href="https://github.com/ryanfb/bcx-project-photocopier">BCX Project Photocopier</a></h1><p>Copy Basecamp projects between accounts.</p></li>
+    <li><h1><a href="http://www.flickr.com/photos/ryanfb/collections/72157611507557907/">Manuscript Images on Flickr</a></h1><p>Creative Commons licensed manuscript images mirrored on Flickr for redundancy and alternative access methods (API, notes, comments, browsing, etc.).</p></li>
+  </ul>
+</section>
+<section>
+  <h1>Selected publications:</h1>
+  <ul>
+    <li><a href="http://dx.doi.org/10.1007/978-3-642-34752-8_2">Automatic Perspective Correction of Manuscript Images</a>. ICADL 2012.</li>
+    <li><a href="http://ryanfb.github.io/papers-BICS/">The Son of Suda On-Line</a>: Collaborative editing and workflow tool. Digital Humanities 2011.</li>
+    <li><a href="http://rfbaumann.com/papers/sp137-baumann.pdf">Robust Registration of Manuscript Images</a>. 9th ACM/IEEE-CS Joint Conference on Digital Libraries. 2009.</li>
+    <li>Opportunities for Epigraphy in the Context of 3D Digitization. ASGLE 2009 joint APA/AIA Panel.</li>
+    <li><a href="http://rfbaumann.com/papers/Israel-EDUCE.pdf">The Use of Micro-CT in the Study of Archaeological Artifacts</a>. 9th International Art Conference in Jerusalem on Non-destructive Investigation and Analysis. 2008.</li>
+    <li>Imaging the <a href="http://en.wikipedia.org/wiki/Venetus_A">Venetus A Manuscript</a> for the <a href="http://www.homermultitext.org/">Homer Multitext</a>. Digital Humanities 2008.</li>
+    <li>A Catadioptric Projector System with Application to Pseudo HDR Display (Poster). ACM SIGGRAPH 2007.</li>
+  </ul>
+</section>
+<section>
+  <h1>As seen on:</h1>
+  <ul>
+    <li>“<a href="http://campustechnology.com/articles/2013/10/16/a-collaboratory-for-classics.aspx">A Collaboratory for Classics</a>”. Campus Technology. <time datetime="2013-10-16">2013</time>.
+    <li>“<a href="http://www.wral.com/ancient-documents-go-digital-at-duke/12721968/">Ancient documents go digital at Duke</a>”. WRAL. <time datetime="2013-07-30">2013</time>.
+    <li>“<a href="https://chronicle.com/article/Duke-Puts-a-Classics-Scholar/139567/">Duke Classics Scholar Finds Another Home in the Library</a>”. The Chronicle of Higher Education. <time datetime="2013-06-03">2013</time>.
+    <li>“<a href="http://arstechnica.com/science/2012/05/coolest-jobs-in-tech-decoding-life-touring-solar-systems/">Coolest jobs in tech: decoding life, touring solar systems</a>”. Ars Technica. <time datetime="2012-05-22">2012</time>.</li>
+    <li>“<a href="http://www.kentucky.com/2009/08/23/905984/uk-team-digs-into-data-from-scroll.html">UK team digs into data from scroll scans</a>”. Lexington Herald-Leader. <time datetime="2009-08-23">2009</time>.
+    <li>“<a href="http://online.wsj.com/article/SB124173896716198603.html">The Next Age of Discovery</a>”. Wall Street Journal. <time datetime="2009-05-08">2009</time>.</li>
+    <li>“<a href="http://37signals.blogs.com/products/2008/08/backpack-helps.html">Backpack helps researcher working in imaging of ancient texts</a>”. 37signals. <time datetime="2008-08-28">2008</time>.</li>
+  </ul>
+</section>
