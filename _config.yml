@@ -2,6 +2,7 @@ plugins:
   - jekyll-github-metadata
   - jekyll-remote-theme
 remote_theme: ryanfb/jekyll-theme-palaios
+url: https://ryanfb.github.io
 owner:
   name: Ryan Baumann
   first_name: Ryan
