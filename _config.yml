@@ -1,12 +1,12 @@
 plugins:
   - jekyll-github-metadata
   - jekyll-remote-theme
+  - jekyll-seo-tag
 remote_theme: ryanfb/jekyll-theme-palaios
 url: https://ryanfb.github.io
-owner:
+author:
   name: Ryan Baumann
   first_name: Ryan
   last_name: Baumann
   email: ryan.baumann@gmail.com
   twitter: ryanfb
-  gravatar_url: http://www.gravatar.com/avatar/5c60848658ff9b47c42196635fe0449b.jpg
