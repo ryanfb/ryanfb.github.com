@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/ryanfb
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ryanfb.xyz
+  * I am ryanfb (https://keybase.io/ryanfb) on keybase.
+  * I have a public key with fingerprint A93E 5839 3686 F89E 8E79  78CF 4867 2D7A C53C 9D8E
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101b461e69c6508602b9ec30700116fb111af81c3b84389e6bca147df0d9ef8bb2a0a",
+      "fingerprint": "a93e58393686f89e8e7978cf48672d7ac53c9d8e",
+      "host": "keybase.io",
+      "key_id": "48672d7ac53c9d8e",
+      "kid": "0101b461e69c6508602b9ec30700116fb111af81c3b84389e6bca147df0d9ef8bb2a0a",
+      "uid": "3aa67aa055c108315615039775c24e19",
+      "username": "ryanfb"
+    },
+    "service": {
+      "hostname": "ryanfb.xyz",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1671463938,
+  "expire_in": 157680000,
+  "prev": "aa639f07dfe7f1f36e5d5a97625e3d0bae118c2da5a5506a9627a221869d042c",
+  "seqno": 36,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUl1IFFEY3TW31iK0zKIf2xyEyqzundm5M7NWUCiBRRQV/eJ2Z+aOTmu728y4
+uakhaYZIZT9rDwVZlllEUEqxYBr9Ef0XSVIZBT3YY5iQpdkdyYegx+7L5Z57zrnn
+O9z6iWMcbideeUJ1KZlbnY+/yA6lsTqtjJFDapTxlTEBMrKRYpWYlj+gq4yPARBA
+2YsgQZKCeCAiwMoSUTggAAAh0mQIIdZEqHCy6OVEiSBZwdArqBpQJaKJssxigJls
+RtODhcQIG3rQorZY4ggvchKHRKRRlUgESRAVzSsigVUFrPCcIqkiocKikGkraDgZ
+m2SRHqIYPfhH4v2D/59zl4zYcRgjAWPA8woEIgd5BHnASYLAK6yXQMkmmsQI4l2E
+so0oDmoyU5HNUCyiK8Su1Z7jr/tFpdG9VBc2QlZICRVTvMiywqbP1lnRsE3cQ2T/
+Hwu/rAdV2iFVRIhh6qEg44OUqVi67QmRAL2IFipmM6Q0rBvEr9sMXkAioMt+h0Ts
+5jFlaYAOSjYKGtQ4RHiVx5KAWJ5wKpAxgVBUWBXzmOcBwhJiBcyyUESSCryswthT
+7Q6GGB+HaFBcSE1NvTCIrRKDMBXja51cosPpdqRPzUicVZ4Vn7s4/eWp07Udox/P
+lWD/Osf4pJRRpO3GuGFD6DRS65vinu7ehes3relkPYMf27rHtF2IpRw62pq2Yte4
+p0/6m96uTnSVrR1w9aS9mF3etOxs4EJ3nWvrYA234P69gqtzpX1VJye7r8M7lT+m
+fG7aUPVmS8azCQeq5w0d7H3C9W87fqkjZ/qZvgP5k9Krns7JO5aVefnaDq3h7ofk
+xiXDBb9uFdR+Dcy/MvNV0VUY37H9QY6nJPFR9f7Brwmb3/Vta2lf2ryq9PnYSje/
+uJoZuHjk/duehsrWrrbvD4Who/PPtbxfl1wxwxfL/Vke6ZmWuvP12fbIZf1wdvyT
+R5uZeux2lqM1Vre862ZFWf336PlmM4nJz12W17722w3n9tZYzW8=
+=45C7
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ryanfb
+
+==================================================================
+
