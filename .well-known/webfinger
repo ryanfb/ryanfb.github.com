@@ -1,0 +1,23 @@
+{
+  "subject": "acct:ryan@ryanfb.xyz",
+  "aliases": [
+    "https://botsin.space/@ryanfb",
+    "https://botsin.space/users/ryanfb"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://botsin.space/@ryanfb"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://botsin.space/users/ryanfb"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://botsin.space/authorize_interaction?uri={uri}"
+    }
+  ]
+}
