@@ -3,7 +3,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
 remote_theme: ryanfb/jekyll-theme-palaios
-title: ryanfb.xyz
+title: Ryan Baumann - ryanfb.xyz
 url: https://ryanfb.xyz
 author:
   name: Ryan Baumann
@@ -14,3 +14,8 @@ author:
 twitter:
   username: ryanfb
   card: summary
+social:
+  links:
+   - https://botsin.space/@ryanfb
+   - https://keybase.io/ryanfb
+   - https://github.com/ryanfb
