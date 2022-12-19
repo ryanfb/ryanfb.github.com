@@ -5,6 +5,7 @@ plugins:
 remote_theme: ryanfb/jekyll-theme-palaios
 title: Ryan Baumann - ryanfb.xyz
 url: https://ryanfb.xyz
+include: [.well-known]
 author:
   name: Ryan Baumann
   first_name: Ryan
